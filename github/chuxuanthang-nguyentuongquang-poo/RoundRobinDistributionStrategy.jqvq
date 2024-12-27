@@ -1,0 +1,7 @@
+public class RoundRobinDistributionStrategy implements RedistributionStrategy {
+    @Override
+    public void redistribute() {
+        // Implement logic to distribute vehicles in a circle
+        // For example: Move bikes from one station to the next in order
+    }
+}
